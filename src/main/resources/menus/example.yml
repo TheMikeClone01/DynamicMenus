@@ -1,0 +1,35 @@
+id: "example"
+title: "&8Menú de &b%player%"
+size: 27
+cancel-click: true
+fill-empty:
+  enabled: true
+  material: GRAY_STAINED_GLASS_PANE
+  name: "&7"
+items:
+  profile:
+    slot: 11
+    material: PLAYER_HEAD
+    name: "&aPerfil de %player%"
+    lore:
+      - "&7Jugador: &f%player%"
+      - "&7Conectados: &f%online%"
+      - "&8Click para saludar"
+    actions:
+      - "MESSAGE:&a¡Hola %player%!"
+  reward:
+    slot: 13
+    material: EMERALD
+    amount: 3
+    name: "&aRecompensa"
+    lore:
+      - "&7Ejecuta un comando de consola"
+    actions:
+      - "CONSOLE:say %player% reclamó una recompensa del menú"
+      - "MESSAGE:&aHas activado la recompensa."
+  close:
+    slot: 15
+    material: BARRIER
+    name: "&cCerrar"
+    actions:
+      - "CLOSE"
