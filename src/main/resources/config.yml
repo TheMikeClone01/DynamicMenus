@@ -1,0 +1,12 @@
+settings:
+  debug: false
+  default-cancel-click: true
+messages:
+  prefix: "&8[&bDynamicMenus&8] &r"
+  no-permission: "&cNo tienes permisos para hacer eso."
+  player-only: "&cSolo un jugador puede ejecutar este comando."
+  menu-not-found: "&cNo se encontró el menú '&f%menu%&c'."
+  menu-opened: "&aMenú '&f%menu%&a' abierto para &f%player%&a."
+  reloaded: "&aDynamicMenus recargado correctamente."
+  usage: "&eUso: /dynamicmenus <open|reload|list>"
+  menu-list-header: "&7Menús cargados (&f%count%&7): &b%menus%"

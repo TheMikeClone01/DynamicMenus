@@ -1,0 +1,21 @@
+name: DynamicMenus
+version: 1.0.0
+main: com.example.dynamicmenus.DynamicMenusPlugin
+api-version: '1.21'
+authors: ["ChatGPT"]
+description: Crea menús de inventario dinámicos y configurables.
+commands:
+  dynamicmenus:
+    description: Comando principal del plugin DynamicMenus.
+    usage: /dynamicmenus <open|reload|list>
+    aliases: [dmenu, dmenus]
+permissions:
+  dynamicmenus.admin:
+    description: Permite recargar y listar menús.
+    default: op
+  dynamicmenus.open:
+    description: Permite abrir menús.
+    default: true
+  dynamicmenus.open.others:
+    description: Permite abrir menús a otros jugadores.
+    default: op
